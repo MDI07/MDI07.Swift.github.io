@@ -1,4 +1,4 @@
-/* Global */
+/* Глобальный */
 
 * {
     margin: 0;
@@ -132,7 +132,7 @@ section h3 {
     }
 }
 
-/* Header */
+/* Заголовок */
 
 header {
     position: absolute;
@@ -200,10 +200,10 @@ header nav ul li {
 
 }
 
-/* Showcase */
+/* Витрина */
 
 section#showcase {
-    background-color: #f3b57d;
+    background-color: #f1a562;
     position: relative;
     justify-content: center;
     text-align: center;
@@ -243,7 +243,7 @@ section#showcase {
     color: red;
 }
 
-/* Benefits */
+/* преимущества */
 
 section#benefits {
     background-color: #f3f3f3;
@@ -296,7 +296,7 @@ section#benefits {
     }
 }
 
-/* Customize (ingredients) */
+/* Настроить (ингредиенты) */
 
 #customize .grid {
     justify-content: space-around;
@@ -336,9 +336,9 @@ p.ingredient-name {
     top: 50%;
     left: 50%;
     font-weight: 700;
-    /* initial scale */
+    /* начальная шкала */
     transform: translate(-50%, -50%) scale(0);
-    /* transition after the hover */
+    /* переход после наведения */
     transition: transform 1s 1s ease-in-out;
 }
 
@@ -362,7 +362,7 @@ p.ingredient-name {
 /* Cola */
 
 #add-cola {
-    background-color: #f3b57d;
+    background-color: #f1a562;
     color: #fff;
 }
 
@@ -393,7 +393,7 @@ p.ingredient-name {
     }
 }
 
-/* Testimonials */
+/* Отзывы */
 
 #testimonials {
     background-color: #f3f3f3;
@@ -427,7 +427,7 @@ blockquote {
     color: #000;
     border-left: 8px solid #865d3d;
     line-height: 1.6;
-    background: #f3b57d;
+    background: #f1a562;
 }
 
 blockquote i {
@@ -448,7 +448,7 @@ blockquote span {
     }
 }
 
-/* Pricing tables */
+/* Таблицы цен */
 
 #pricing-tables .grid {
     flex-direction: row;
@@ -467,7 +467,7 @@ blockquote span {
     background: #fff;
     color: #333333;
     list-style-type: none;
-    border: 1px solid #f3b57d;
+    border: 1px solid #f1a562;
     margin: 0;
     padding: 0;
     transition: 1s;
@@ -498,7 +498,7 @@ blockquote span {
 
 .price-box li {
     padding: 20px;
-    border-bottom: 1px solid #f3b57d;
+    border-bottom: 1px solid #f1a562;
 }
 
 .price-box .emph {
@@ -532,13 +532,13 @@ blockquote span {
     }
 }
 
-/* Footer */
+/* Нижний колонтитул */
 
 footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #f3b57d;
+    background-color: #f1a562;
     padding: 20px 0;
     text-align: center;
     font-size: 20px;
