@@ -1,4 +1,4 @@
-// Scroll Reveal Animations
+// Анимация прокрутки
 window.sr = ScrollReveal();
 
 sr.reveal(".section-title", {
@@ -58,25 +58,25 @@ sr.reveal(".ingredient-box", {
     rotate: {x: 0, y: 0, z: 180}
 }, 100);
 
-// Add smooth scrolling to all links
+// Добавить плавную прокрутку ко всем ссылкам
 $("a").on('click', function (event) {
 
-    // Make sure this.hash has a value before overriding default behavior
+    // Убедитесь, что this.hash имеет значение, прежде чем переопределять поведение по умолчанию.
     if (this.hash !== "") {
-        // Prevent default anchor click behavior
+        // Предотвратить стандартное поведение щелчка якоря
         event.preventDefault();
 
-        // Store hash
+        // Хранить хэш
         var hash = this.hash;
 
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (1000) specifies the number of milliseconds it takes to scroll to the specified area
+        // Использование метода jQuery animate() для добавления плавной прокрутки страницы
+         // Необязательное число (1000) указывает количество миллисекунд, необходимое для прокрутки до указанной области
         $('html, body').animate({
             scrollTop: $(hash).offset().top
         }, 1000, function () {
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            // window.location.hash = hash;
+            // Добавляем решетку (#) к URL после завершения прокрутки (поведение при нажатии по умолчанию)
+             // window.location.hash = хэш;
         });
-    } // End if
+    } // Конец, если
 });
